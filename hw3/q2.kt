@@ -48,7 +48,7 @@ private fun isPrime(num:Int): Boolean
         return num ==7
 
     var i = 11
-    while (i * i < num){
+    while (i * i <= num){
         if (num % i == 0)
             return  false
         i +=2

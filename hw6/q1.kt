@@ -19,7 +19,7 @@ private fun runCrapsApp(){
 private fun playCrapsGame(random: Random) : Boolean
 {
     var firstSum = rollTwoDices(random)
-    
+
     when(firstSum){
         7,11   -> return true // wins
         2,3,12 -> return false // lose
